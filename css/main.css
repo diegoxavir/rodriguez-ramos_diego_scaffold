@@ -1,0 +1,72 @@
+body {
+    color: white;
+}
+
+.box {
+    background-color: rgb(75, 75, 75);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#hero-image {
+    height: 180px;
+}
+
+.product-box {
+    height: 75px;
+}
+
+.service-box {
+    height: 100px;
+}
+
+#image-box {
+    display: none;
+}
+
+#footer-box {
+    height: 75px;
+}
+
+
+/* ---Tablet Library Grid Styles--- */
+@media screen and (min-width: 768px) {
+    .header-box {
+        height: 40px;
+    }
+
+    #hero-image {
+        height: 250px;
+    }
+
+    .product-box {
+        height: 120px;
+    }
+
+    .service-box {
+        height: 140px;
+    }
+
+    #footer-box {
+        height: 100px;
+    }
+
+}
+
+/* ---Desktop Library Grid Styles--- */
+
+@media screen and (min-width: 1200px) {
+
+#image-box {
+    display: block;
+}
+
+
+
+
+
+
+}
